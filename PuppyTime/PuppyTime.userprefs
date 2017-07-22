@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="PuppyTime.CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Roar.cs">
+    <Files>
+      <File FileName="Assets\T-Rex.Model\Script\AnimationController.cs" Line="23" Column="12" />
+      <File FileName="Assets\T-Rex.Model\Script\RotateController.cs" Line="12" Column="5" />
+      <File FileName="Assets\Scripts\PlayAudio.cs" Line="11" Column="22" />
+      <File FileName="Assets\Roar.cs" Line="10" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

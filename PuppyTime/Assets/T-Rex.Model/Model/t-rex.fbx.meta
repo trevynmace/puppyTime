@@ -1,0 +1,3848 @@
+fileFormatVersion: 2
+guid: f0013bb6e224e4adfa4a5bbfe9f58997
+timeCreated: 1462277327
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Center
+    100004: Crow
+    100006: ctrl.shin_L.001
+    100008: ctrl.shin_R.001
+    100010: ctrl.toe.01_L.001
+    100012: ctrl.toe.01_L.001_end
+    100014: ctrl.toe.01_R.001
+    100016: ctrl.toe.01_R.001_end
+    100018: ctrl.toe.02_L.001
+    100020: ctrl.toe.02_L.001_end
+    100022: ctrl.toe.02_R.001
+    100024: ctrl.toe.02_R.001_end
+    100026: ctrl.toe.03_L.001
+    100028: ctrl.toe.03_L.001_end
+    100030: ctrl.toe.03_R.001
+    100032: ctrl.toe.03_R.001_end
+    100034: eye_L
+    100036: eye_L_end
+    100038: eye_R
+    100040: eye_R_end
+    100042: finger01_L
+    100044: finger01_R
+    100046: finger02_L
+    100048: finger02_L_end
+    100050: finger02_R
+    100052: finger02_R_end
+    100054: finger03_L
+    100056: finger03_R
+    100058: finger04_L
+    100060: finger04_L_end
+    100062: finger04_R
+    100064: finger04_R_end
+    100066: foot_L
+    100068: foot_R
+    100070: forearm_L
+    100072: forearm_R
+    100074: hip
+    100076: neck
+    100078: pole.shin_L.002
+    100080: pole.shin_L.002_end
+    100082: pole.shin_R.002
+    100084: pole.shin_R.002_end
+    100086: shin_L
+    100088: shin_R
+    100090: sholder.arm_L
+    100092: sholder.arm_R
+    100094: spine
+    100096: T-rex
+    100098: //RootNode
+    100100: tail.01
+    100102: tail.02
+    100104: tail.03
+    100106: tail.04
+    100108: tail.05
+    100110: tail.06
+    100112: tail.06_end
+    100114: thigh_L
+    100116: thigh_R
+    100118: toe.01_L
+    100120: toe.01_L_end
+    100122: toe.01_R
+    100124: toe.01_R_end
+    100126: toe.02_L
+    100128: toe.02_L_end
+    100130: toe.02_R
+    100132: toe.02_R_end
+    100134: toe.03_L
+    100136: toe.03_L_end
+    100138: toe.03_R
+    100140: toe.03_R_end
+    100142: under.jaw
+    100144: under.jaw_end
+    100146: upper.arm_L
+    100148: upper.arm_R
+    100150: upper.jaw
+    400000: Bone
+    400002: Center
+    400004: Crow
+    400006: ctrl.shin_L.001
+    400008: ctrl.shin_R.001
+    400010: ctrl.toe.01_L.001
+    400012: ctrl.toe.01_L.001_end
+    400014: ctrl.toe.01_R.001
+    400016: ctrl.toe.01_R.001_end
+    400018: ctrl.toe.02_L.001
+    400020: ctrl.toe.02_L.001_end
+    400022: ctrl.toe.02_R.001
+    400024: ctrl.toe.02_R.001_end
+    400026: ctrl.toe.03_L.001
+    400028: ctrl.toe.03_L.001_end
+    400030: ctrl.toe.03_R.001
+    400032: ctrl.toe.03_R.001_end
+    400034: eye_L
+    400036: eye_L_end
+    400038: eye_R
+    400040: eye_R_end
+    400042: finger01_L
+    400044: finger01_R
+    400046: finger02_L
+    400048: finger02_L_end
+    400050: finger02_R
+    400052: finger02_R_end
+    400054: finger03_L
+    400056: finger03_R
+    400058: finger04_L
+    400060: finger04_L_end
+    400062: finger04_R
+    400064: finger04_R_end
+    400066: foot_L
+    400068: foot_R
+    400070: forearm_L
+    400072: forearm_R
+    400074: hip
+    400076: neck
+    400078: pole.shin_L.002
+    400080: pole.shin_L.002_end
+    400082: pole.shin_R.002
+    400084: pole.shin_R.002_end
+    400086: shin_L
+    400088: shin_R
+    400090: sholder.arm_L
+    400092: sholder.arm_R
+    400094: spine
+    400096: T-rex
+    400098: //RootNode
+    400100: tail.01
+    400102: tail.02
+    400104: tail.03
+    400106: tail.04
+    400108: tail.05
+    400110: tail.06
+    400112: tail.06_end
+    400114: thigh_L
+    400116: thigh_R
+    400118: toe.01_L
+    400120: toe.01_L_end
+    400122: toe.01_R
+    400124: toe.01_R_end
+    400126: toe.02_L
+    400128: toe.02_L_end
+    400130: toe.02_R
+    400132: toe.02_R_end
+    400134: toe.03_L
+    400136: toe.03_L_end
+    400138: toe.03_R
+    400140: toe.03_R_end
+    400142: under.jaw
+    400144: under.jaw_end
+    400146: upper.arm_L
+    400148: upper.arm_R
+    400150: upper.jaw
+    4300000: T-rex
+    4300002: Crow
+    7400000: Center|Attack01
+    7400002: Center|Attack02
+    7400004: Center|Attack03
+    7400006: Center|Attack04
+    7400008: Center|Attack05
+    7400010: Center|Back.wark
+    7400012: Center|Damege01
+    7400014: Center|Damege02
+    7400016: Center|Dead01
+    7400018: Center|Dead02
+    7400020: Center|Idle01
+    7400022: Center|Idle02
+    7400024: Center|Run
+    7400026: Center|Shout01
+    7400028: Center|Shout02
+    7400030: Center|Spine_roll_left
+    7400032: Center|Spine_roll_right
+    7400034: Center|Under.eat
+    7400036: Center|Upper.eat
+    7400038: Center|Wark
+    9500000: //RootNode
+    13700000: Crow
+    13700002: T-rex
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Center|Attack01
+      takeName: Center|Attack01
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Attack02
+      takeName: Center|Attack02
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Attack03
+      takeName: Center|Attack03
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Attack04
+      takeName: Center|Attack04
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Attack05
+      takeName: Center|Attack05
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Back.wark
+      takeName: Center|Back.wark
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Damege01
+      takeName: Center|Damege01
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Damege02
+      takeName: Center|Damege02
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Dead01
+      takeName: Center|Dead01
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Dead02
+      takeName: Center|Dead02
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Idle01
+      takeName: Center|Idle01
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Idle02
+      takeName: Center|Idle02
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Run
+      takeName: Center|Run
+      firstFrame: 0
+      lastFrame: 191
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Shout01
+      takeName: Center|Shout01
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Shout02
+      takeName: Center|Shout02
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Spine_roll_left
+      takeName: Center|Spine_roll_left
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Spine_roll_right
+      takeName: Center|Spine_roll_right
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Under.eat
+      takeName: Center|Under.eat
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Upper.eat
+      takeName: Center|Upper.eat
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Center|Wark
+      takeName: Center|Wark
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Center
+        weight: 1
+      - path: Center/Bone
+        weight: 1
+      - path: Center/Bone/hip
+        weight: 1
+      - path: Center/Bone/hip/tail.01
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06
+        weight: 1
+      - path: Center/Bone/hip/tail.01/tail.02/tail.03/tail.04/tail.05/tail.06/tail.06_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.01_L/toe.01_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.02_L/toe.02_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L
+        weight: 1
+      - path: Center/Bone/hip/thigh_L/shin_L/foot_L/toe.03_L/toe.03_L_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.01_R/toe.01_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.02_R/toe.02_R_end
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R
+        weight: 1
+      - path: Center/Bone/hip/thigh_R/shin_R/foot_R/toe.03_R/toe.03_R_end
+        weight: 1
+      - path: Center/Bone/spine
+        weight: 1
+      - path: Center/Bone/spine/neck
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/under.jaw/under.jaw_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_L/eye_L_end
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R
+        weight: 1
+      - path: Center/Bone/spine/neck/upper.jaw/eye_R/eye_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger01_L/finger02_L/finger02_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_L/upper.arm_L/forearm_L/finger03_L/finger04_L/finger04_L_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger01_R/finger02_R/finger02_R_end
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R
+        weight: 1
+      - path: Center/Bone/spine/sholder.arm_R/upper.arm_R/forearm_R/finger03_R/finger04_R/finger04_R_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.01_L.001/ctrl.toe.01_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.02_L.001/ctrl.toe.02_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001
+        weight: 1
+      - path: Center/ctrl.shin_L.001/ctrl.toe.03_L.001/ctrl.toe.03_L.001_end
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002
+        weight: 1
+      - path: Center/ctrl.shin_L.001/pole.shin_L.002/pole.shin_L.002_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.01_R.001/ctrl.toe.01_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.02_R.001/ctrl.toe.02_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001
+        weight: 1
+      - path: Center/ctrl.shin_R.001/ctrl.toe.03_R.001/ctrl.toe.03_R.001_end
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002
+        weight: 1
+      - path: Center/ctrl.shin_R.001/pole.shin_R.002/pole.shin_R.002_end
+        weight: 1
+      - path: Crow
+        weight: 1
+      - path: T-rex
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
