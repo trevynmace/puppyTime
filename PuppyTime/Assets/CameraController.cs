@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public int _timeDelayUntilCameraMove = 30;
+
     private DateTime _startTime;
 
     // Use this for initialization
@@ -18,15 +20,14 @@ public class CameraController : MonoBehaviour
     {
 	    var currentTime = DateTime.Now;
 	    var elapsedTime = (currentTime - _startTime).TotalSeconds;
-
-        //TODO: this should last longer
-	    if (elapsedTime > 10)
+        
+	    if (elapsedTime > _timeDelayUntilCameraMove)
 	    {
-	        //rotate player to dinosaur and have it roar
-	        //transform.rotation = Quaternion.Euler(-20, 141, 0);
-	        //var trexAnimator = GameObject.Find("t-rex").GetComponent<Animator>();
-	        //trexAnimator.SetTrigger("go");
-	    }
+            //rotate player to dinosaur and have it roar
+            transform.rotation = Quaternion.Euler(-20, 141, 0);
+            var trexAnimator = GameObject.Find("t-rex").GetComponent<Animator>();
+            trexAnimator.SetTrigger("go");
+        }
 
     }
 }
