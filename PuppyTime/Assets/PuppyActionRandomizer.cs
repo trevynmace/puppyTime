@@ -6,62 +6,66 @@ using Random = System.Random;
 
 public class PuppyActionRandomizer : MonoBehaviour
 {
-    private Animator animator;
     private DateTime _lastUpdateTime;
+    private GameObject[] _puppies;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
-        animator = GetComponent<Animator>();
+        _puppies = GameObject.FindGameObjectsWithTag("Puppy");
     }
-	
-	// Update is called once per frame
-	void Update ()
-	{
-	    var random = new Random();
-	    var randomInt = random.Next(1, 7);
-        
-	    var currentTime = DateTime.Now;
-	    var timeSinceLastAnimationWasSet = (currentTime - _lastUpdateTime).TotalSeconds;
-	    if (timeSinceLastAnimationWasSet > 1)
-	    {
-	        switch (randomInt)
-	        {
-	            case 1:
-	                SetAnimationBooleans("isPlaying");
-	                break;
-	            case 2:
-	                SetAnimationBooleans("isCrying");
-	                break;
-	            case 3:
-	                SetAnimationBooleans("isSleeping");
-	                break;
-	            case 4:
-	                SetAnimationBooleans("isJumping");
-	                break;
-	            case 5:
-	                SetAnimationBooleans("isSittingHigh");
-	                break;
-	            case 6:
-	                SetAnimationBooleans("isPawing");
-	                break;
-	            default: break;
-	        }
-	    }
-	}
 
-    //TODO: how to get each dog to do one of the 6 animations independently?
-    private void SetAnimationBooleans(string boolToSetTrue)
+    // Update is called once per frame
+    void Update()
+    {
+        var currentTime = DateTime.Now;
+        var timeSinceLastAnimationWasSet = (currentTime - _lastUpdateTime).TotalSeconds;
+
+        if (timeSinceLastAnimationWasSet > 1)
+        {
+            var random = new Random();
+
+            foreach (var puppy in _puppies)
+            {
+                var randomInt = random.Next(1, 7);
+
+                switch (randomInt)
+                {
+                    case 1:
+                        SetAnimationBooleans("isPlaying", puppy.GetComponent<Animator>());
+                        break;
+                    case 2:
+                        SetAnimationBooleans("isCrying", puppy.GetComponent<Animator>());
+                        break;
+                    case 3:
+                        SetAnimationBooleans("isSleeping", puppy.GetComponent<Animator>());
+                        break;
+                    case 4:
+                        SetAnimationBooleans("isJumping", puppy.GetComponent<Animator>());
+                        break;
+                    case 5:
+                        SetAnimationBooleans("isSittingHigh", puppy.GetComponent<Animator>());
+                        break;
+                    case 6:
+                        SetAnimationBooleans("isPawing", puppy.GetComponent<Animator>());
+                        break;
+                    default: break;
+                }
+            }
+        }
+    }
+    
+    private void SetAnimationBooleans(string boolToSetTrue, Animator puppyAnimator)
     {
         _lastUpdateTime = DateTime.Now;
 
-        animator.SetBool("isPlaying", false);
-        animator.SetBool("isCrying", false);
-        animator.SetBool("isSleeping", false);
-        animator.SetBool("isJumping", false);
-        animator.SetBool("isSittingHigh", false);
-        animator.SetBool("isPawing", false);
+        puppyAnimator.SetBool("isPlaying", false);
+        puppyAnimator.SetBool("isCrying", false);
+        puppyAnimator.SetBool("isSleeping", false);
+        puppyAnimator.SetBool("isJumping", false);
+        puppyAnimator.SetBool("isSittingHigh", false);
+        puppyAnimator.SetBool("isPawing", false);
 
-        animator.SetBool(boolToSetTrue, true);
+        puppyAnimator.SetBool(boolToSetTrue, true);
     }
 }

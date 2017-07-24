@@ -23,9 +23,9 @@ public class CameraController : MonoBehaviour
 	    if (elapsedTime > 10)
 	    {
 	        //rotate player to dinosaur and have it roar
-	        transform.rotation = Quaternion.Euler(-20, 141, 0);
-	        var trexAnimator = GameObject.Find("t-rex").GetComponent<Animator>();
-	        trexAnimator.SetTrigger("go");
+	        //transform.rotation = Quaternion.Euler(-20, 141, 0);
+	        //var trexAnimator = GameObject.Find("t-rex").GetComponent<Animator>();
+	        //trexAnimator.SetTrigger("go");
 	    }
 
     }
