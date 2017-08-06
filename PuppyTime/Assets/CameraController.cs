@@ -8,11 +8,15 @@ public class CameraController : MonoBehaviour
     public int _timeDelayUntilCameraMove = 30;
 
     private DateTime _startTime;
+    private bool _missionAccomplished;
+    private GameObject _trex;
 
     // Use this for initialization
     void Start ()
     {
-	    _startTime = DateTime.Now;
+        _trex = GameObject.Find("t-rex");
+        _trex.SetActive(false);
+        _startTime = DateTime.Now;
     }
 	
 	// Update is called once per frame
@@ -21,11 +25,14 @@ public class CameraController : MonoBehaviour
 	    var currentTime = DateTime.Now;
 	    var elapsedTime = (currentTime - _startTime).TotalSeconds;
         
-	    if (elapsedTime > _timeDelayUntilCameraMove)
+	    if (elapsedTime > _timeDelayUntilCameraMove && !_missionAccomplished)
 	    {
-            //rotate player to dinosaur and have it roar
-            transform.rotation = Quaternion.Euler(-20, 141, 0);
-            var trexAnimator = GameObject.Find("t-rex").GetComponent<Animator>();
+	        _missionAccomplished = true;
+
+	        //make the trex appear  
+	        _trex.SetActive(true);
+
+	        var trexAnimator = _trex.GetComponent<Animator>();
             trexAnimator.SetTrigger("go");
         }
 
